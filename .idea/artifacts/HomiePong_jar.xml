@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HomiePong:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="PongProject.jar">
+      <element id="module-output" name="PongProject" />
+    </root>
+  </artifact>
+</component>
