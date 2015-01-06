@@ -22,6 +22,8 @@ public class Game {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         System.out.println("Frame successfuly created!");
-        frame.add(new Screen(frame));
+        Screen screen = new Screen(frame);
+        frame.add(screen);
+        frame.addKeyListener(new KeyHandler(screen));
     }
 }
